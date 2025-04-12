@@ -1,0 +1,10 @@
+# Aktiviere sofortigen Respawn (läuft im Hintergrund)
+every second:
+    execute console command "gamerule doImmediateRespawn true"
+    execute console command "gamerule sendCommandFeedback false"
+
+# Spectator-Mode nach dem Tod
+on death:
+    wait 1 tick  # Warte 1 Tick, um Respawn-Konflikte zu vermeiden
+    execute console command "gamemode spectator %victim%"
+    send "&eDu bist im Spectator-Mode! Nutze &6/gm survival &ezum Zurückkehren." to victim
