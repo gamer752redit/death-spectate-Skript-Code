@@ -1,5 +1,5 @@
 # Aktiviere sofortigen Respawn (läuft im Hintergrund)
-every second:
+every 15 seconds:
     execute console command "gamerule doImmediateRespawn true"
     execute console command "gamerule sendCommandFeedback false"
 
