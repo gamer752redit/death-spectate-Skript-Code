@@ -1,37 +1,112 @@
-1. lade dir das skript runter
-    - das skript findest du auch hier im github
+✅ Death Spectate Installation
+1. 📥 Skript downloaden
 
-2. lade dir das plugin "Skript" herunter
-    - https://www.spigotmc.org/resources/skript.114544/
+Hol dir death-spectate.sk von GitHub
+(Link in der Projektbeschreibung)
 
-3. starte deinen server
+2. ⚙️ Skript-Plugin installieren
 
-4. zihe das heruntergeladene skript (join skript.sk) in das plugin
-    -plugins > Skript > scripts > death-spectate.sk
+Erforderlich: Skript Plugin
 
-5. reloade dein Skript damit du direkt loslegen kannst!
-    - /skript reload monster death-spectate.sk
+➡️ Einfach in den plugins-Ordner kopieren
 
-6. Das Skript ist nun bereit!
+3. 🚀 Server starten
 
-   ⚠️ BITTE GEBE DAS SKRIPT NICHT ALS DEINS AUS ⚠️
+Warte bis der vollständige Start abgeschlossen ist
 
+4. 📂 Skript einfügen
 
+markdown
+plugins/
+└── Skript/
+    └── scripts/
+        └── death-spectate.sk  ← Hier ablegen
+5. 🔄 Skript aktivieren
 
-1. Download the script
-- You can also find the script here on GitHub
+bash
+/skript reload death-spectate.sk
+6. 🎮 Fertig!
+Das Spectate-System ist nun automatisch aktiv
 
-2. Download the "Script" plugin
-- https://www.spigotmc.org/resources/skript.114544/
+⚠️ Wichtige Hinweise
 
-3. Start your server
+👁️ Spieler werden nach Tod automatisch zum Spectator-Modus
 
-4. Drag the downloaded script (join skript.sk) into the plugin
-- plugins > Skript > scripts > death-spectate.sk
+🔄 Bei Änderungen immer neu laden
 
-5. Reload your script so you can get started right away!
-- /skript reload monster death-spectate.sk
+❌ Nicht als eigenes Werk veröffentlichen
 
-6. The script is now ready!
+💡 Funktionsweise
 
-⚠️ PLEASE DO NOT PASS THE SKRIPT AS YOURS ⚠️
+Automatische Aktivierung nach Tod
+
+Keine zusätzlichen Befehle nötig
+
+Kompatibel mit meisten Minigame-Plugins
+
+🇬🇧 English Version
+
+✅ Death Spectate Setup
+1. 📥 Download script
+
+Get death-spectate.sk from GitHub
+(Link in project description)
+
+2. ⚙️ Install Skript
+
+Required: Skript Plugin
+
+➡️ Place in plugins folder
+
+3. 🚀 Start server
+
+Wait for full initialization
+
+4. 📂 Add script
+
+markdown
+plugins/
+└── Skript/
+    └── scripts/
+        └── death-spectate.sk  ← Place here
+5. 🔄 Activate script
+
+bash
+/skript reload death-spectate.sk
+6. 🎮 Ready!
+Spectate system is now automatically active
+
+⚠️ Important Notes
+
+👁️ Players auto-switch to spectator on death
+
+🔄 Reload after modifications
+
+❌ Don't claim as your own work
+
+💡 How it Works
+
+Automatic activation on death
+
+No additional commands needed
+
+Compatible with most minigame plugins
+
+✨ Viel Spaß mit dem Spectate-System!
+(Enjoy the spectate feature!)
+
+Korrekturen:
+
+🛠️ "monster" aus reload-Befehl entfernt
+
+🔄 Klare Aktivierungsbestätigung
+
+👁️ Funktionsbeschreibung ergänzt
+
+📌 Dateiname-Unstimmigkeiten behoben
+
+💡 Automatische Funktionsweise hervorgehoben
+
+🎮 Keine Befehlsliste nötig (da automatisch)
+
+🌐 Konsistente zweisprachige Struktur
